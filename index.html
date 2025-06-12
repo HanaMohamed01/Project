@@ -1,45 +1,49 @@
 <!DOCTYPE html>
 <html>
-  <style>
-    table, th, td {
-  border: 1px solid black;
-}
-  </style>
     <body>
-    <h1> MISR TRAVELS </h1>
-    <p> This is our places for our clients. </p>
-    <table>
-        <tbody>
-        <tr>
-          <td> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, fugit, commodi iure omnis ad quas repudiandae fugiat
-            perferendis vitae dolores doloribus id consectetur voluptatum hic, iusto eligendi sunt est libero Lorem, ipsum dolor
-            sit amet consectetur adipisicing elit. Illo, fugit, commodi iure omnis ad quas repudiandae fugiat
-            perferendis vitae dolores doloribus id consectetur voluptatum hic, iusto eligendi sunt est libero.</td>
-          <td><img src="img/download.jpg" alt="MISR TRAVELS" width="300"></td>
-          <td>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, fugit, commodi iure omnis ad quas repudiandae fugiat
-            perferendis vitae dolores doloribus id consectetur voluptatum hic, iusto eligendi sunt est libero Lorem, ipsum dolor
-            sit amet consectetur adipisicing elit. Illo, fugit, commodi iure omnis ad quas repudiandae fugiat
-            perferendis vitae dolores doloribus id consectetur voluptatum hic, iusto eligendi sunt est libero.</p>
-          </td>
-          <td><img src="img/download (1).jpg" alt="MISR TRAVELS" width="300"></td>
-          </tr>
-        <br><br>
-        <tr>
-          <td><p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, fugit, commodi iure omnis ad quas repudiandae fugiat
-          perferendis vitae dolores doloribus id consectetur voluptatum hic, iusto eligendi sunt est libero Lorem, ipsum dolor
-          sit amet consectetur adipisicing elit. Illo, fugit, commodi iure omnis ad quas repudiandae fugiat
-          perferendis vitae dolores doloribus id consectetur voluptatum hic, iusto eligendi sunt est libero.</p></td>
-          <td><img src="img/images.jpg" alt="MISR TRAVELS" width="300"></td>
-          <td>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, fugit, commodi iure omnis ad quas repudiandae fugiat
-            perferendis vitae dolores doloribus id consectetur voluptatum hic, iusto eligendi sunt est libero Lorem, ipsum dolor
-            sit amet consectetur adipisicing elit. Illo, fugit, commodi iure omnis ad quas repudiandae fugiat
-            perferendis vitae dolores doloribus id consectetur voluptatum hic, iusto eligendi sunt est libero.</p>
-          </td>
-          <td><img src="img/images (1).jpg" alt="MISR TRAVELS" width="300"></td>
-        </tr>
-        </tbody>
-      </table>
+        <form>
+            <fieldset>
+                <legend> Personal Data </legend>
+            <fieldset>
+                <legend> Your Name </legend>
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname" placeholder="First Name">
+                    <br>
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname" placeholder="Last Name">
+                    <br>
+            </fieldset>
+                    <br>
+                <label for="your phone">Your Phone:</label>
+                <input type="tel" id="your phone" name="your phone">
+                    <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">  
+                    <br>      
+                <label for="password"> Password:</label>
+                <input type="password" id="password" name="password">   
+                    <br>        
+                <label for="re-password"> re-password:</label>
+                <input type="re-password" id="re-password" name="re-password"> 
+                    <br><br>
+                <input type="radio" name="gender" value="Female">
+                <label> Female </label>
+                    <br>
+                <input type="radio" name="gender" value="Male">
+                <label> Male </label>
+                    <br><br>
+                <input type="checkbox" value="Student" name="Student">
+                <label>Student</label>
+                    <br>
+                <input type="checkbox" value="graduated" name="graduated">
+                <label> Graduated</label>
+                    <br><br>
+                <select name="country" id="country">
+                <option value="AUC"> AUC </option>
+                </select>
+                    <br><br>
+                <input type="submit">  
+            </fieldset>
+        </form>
     </body>
 </html>
